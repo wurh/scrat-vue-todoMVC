@@ -39,3 +39,7 @@
 
 ```
 
+最后在浏览器输入:  http://localhost:6006/
+
+![alt text](http://7xawfk.com1.z0.glb.clouddn.com/blog/ori.png "运行结果")
+
