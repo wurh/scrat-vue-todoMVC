@@ -1,0 +1,6 @@
+.DS_Store
+*.bak
+*.tmp
+Thumbs.db
+.idea
+node_modules

@@ -1,0 +1,9 @@
+{
+  "name": "cache",
+  "repo": "scrat-team/lru-cache",
+  "description": "A lru-cache module base on localStorage",
+  "version": "0.1.0",
+  "keywords": ["cache", "lru", "localStorage"],
+  "scripts": ["index.js"],
+  "license": "MIT"
+}

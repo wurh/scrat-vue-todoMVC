@@ -1,0 +1,61 @@
+.animated
+  -webkit-animation-duration .5s
+  animation-duration .5s
+  -webkit-animation-fill-mode both
+  animation-fill-mode both
+
+.animated.infinite
+  -webkit-animation-iteration-count infinite
+  animation-iteration-count infinite
+
+.animated.hinge
+  -webkit-animation-duration 2s
+  animation-duration 2s
+
+@-webkit-keyframes fadeInLeft
+  0%
+    opacity 0
+    -webkit-transform translate3d(-100%, 0, 0)
+    transform translate3d(-100%, 0, 0)
+
+  100%
+    opacity 1
+    -webkit-transform none
+    transform none
+
+@keyframes fadeInLeft
+  0%
+    opacity 0
+    -webkit-transform translate3d(-100%, 0, 0)
+    transform translate3d(-100%, 0, 0)
+
+  100%
+    opacity 1
+    -webkit-transform none
+    transform none
+
+.fadeInLeft
+  -webkit-animation-name fadeInLeft
+  animation-name fadeInLeft
+
+@-webkit-keyframes fadeOutLeft
+  0%
+    opacity: 1
+
+  100%
+    opacity: 0
+    -webkit-transform: translate3d(-100%, 0, 0)
+    transform: translate3d(-100%, 0, 0)
+
+@keyframes fadeOutLeft
+  0%
+    opacity: 1
+
+  100%
+    opacity: 0
+    -webkit-transform: translate3d(-100%, 0, 0)
+    transform: translate3d(-100%, 0, 0)
+
+.fadeOutLeft
+  -webkit-animation-name: fadeOutLeft
+  animation-name: fadeOutLeft

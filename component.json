@@ -1,0 +1,7 @@
+{
+    "name": "ns",
+    "version": "1.0.0",
+    "dependencies": {
+        "scrat-team/router": "0.1.0"
+    }
+}

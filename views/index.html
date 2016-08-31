@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>VIPME-DataGate Fetch the Datas Easier !!</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="lib/css/base.css">
+    <link rel="stylesheet" type="text/css" href="lib/css/index.css">
+
+
+    <style type="text/css">
+        html, body, #page-main {
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<!-- End Page Loading -->
+<div id="page-main" style="height: 100%; position: relative;"></div>
+</body>
+<footer>
+    <script src="lib/vue.js"></script>
+    <script src="lib/scrat.js"></script>
+
+    <script>
+        require.config(__FRAMEWORK_CONFIG__);
+        require.async(['boot'], function (boot) {
+            boot();
+        });
+    </script>
+</footer>
+</html>
